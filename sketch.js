@@ -1,19 +1,27 @@
-var helvetica;
-function preload(){
-	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
-}
+// var helvetica;
+// function preload(){
+// 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
+// }
+var button;
 function setup() {
-	createCanvas(windowWidth,windowHeight, WEBGL);
+	createCanvas(windowWidth,windowHeight);
 
-	textAlign(CENTER, CENTER);
-	textSize(60);
-	textFont(helvetica);
+	button = createButton();
+	button.position(120,120);
+	button.html("<button onclick=\"window.location.href='exercises/operation/index.html';\">Operation Game</button>",);
+	print(button.html());
+	//button.mouseClicked(clicked());
+	//button.html("<onclick= \"window.location.href='exercises/operation/index.html';\"/>");
+	
 }
-function draw() {
-	background("lightGreen");
-	let time = millis();
-	rotateX(time/1000);
-	rotateZ(time/1234);
-	fill("black");
-	text("You did it!",0, 0);
+// function draw() {
+	
+// }
+function clicked(){
+	// print("Triggered!");
+	// print(mouseX + " " + mouseY);
+
+    print("hit!");
+    window.location.href("exercises/operation/index.html");
+
 }
