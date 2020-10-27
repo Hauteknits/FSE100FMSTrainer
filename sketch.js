@@ -22,11 +22,12 @@ var flyX = 0;
 var flyY = 0;
 
 var helvetica;
-var flySFX;
+var flySFX, smackSFX;
 function preload(){
 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
 	soundFormats('mp3');
-	//flySFX = loadSound("/assets/karate-kid/sounds/flysfx.mp3");
+	flySFX = loadSound("/assets/karate-kid/sounds/flysfx.mp3");
+	smackSFX = loadSound("/assets/karate-kid/sounds/smack.mp3");
 }
 let bg, time, flyimg, chopOpen, chopClosed, miyagiDo;
 
@@ -58,6 +59,7 @@ function draw() {
 			image(chopClosed, mouseX-70, mouseY-12);
 			if((mouseX > flyX-40 && mouseX < flyX + 40) && (mouseY > flyY-40 && mouseY < flyY + 40)){
 				grabbed = true;
+				smackSFX.play();
 			}
 		}else{
 			image(chopOpen, mouseX-40, mouseY-12);
@@ -75,18 +77,18 @@ function draw() {
 		text("Time: " + Math.floor(time/30), 60,85);
 	}else{
 		text("Score: " + score, 60,85);
-		//flySFX.stop();
+		flySFX.stop();
 	}
 	
 }
-/*function mouseMoved(){
+function touchStarted(){
 	if(!(flySFX.isLoaded())) return;
 	if(!isStarted){
 		flySFX.play();
-		//isStarted = true;
+		isStarted = true;
 	}
 	print("Hit!");
-}*/
+}
 
 function fly(){
 	if(flyX == 0 || flyY == 0){
