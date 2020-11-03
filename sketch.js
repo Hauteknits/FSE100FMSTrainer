@@ -14,9 +14,7 @@
  *   GNU General Public License for more details.
  */
 
-/* TODO: Get Background
- * TODO: Setup Moles
- * TODO: Setup Holes
+/* TODO: Setup Moles
  * TODO: Create an array of Mole objects
  * TODO: Make moles randomly appear
  * TODO: Implement Timer and Score
@@ -27,6 +25,10 @@
 
 var helvetica;
 var bg;
+const width = 200;
+const height = 150;
+var xPos = [];
+var yPos = [];
 
 function preload(){
 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
@@ -36,12 +38,19 @@ function preload(){
 function setup() {
 	createCanvas(1920,windowHeight);
 	frameRate(30);
-	bg = loadImage("/assets/whac-a-mole/grasstexture.png");
+	bg = loadImage("/assets/whac-a-mole/grassTexture.png");
 }
 
 function draw() {
 	background(bg);
-	
+	fill(0,0,0)
+	for(var i = 1080/4; i < 1080; i += 1080/4){
+		for(var j = 1920/6; j < 1920; j += 1920/6){
+			ellipse(j,i, width, height);
+			xPos.push(j);
+			yPos.push(i);
+		}
+	}
 }
 function touchStarted(){
 	if(!(flySFX.isLoaded())) return;
