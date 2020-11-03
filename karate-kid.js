@@ -14,32 +14,72 @@
  *   GNU General Public License for more details.
  */
 
-/* TODO: Get Background
- * TODO: Setup Moles
- * TODO: Setup Holes
- * TODO: Create an array of Mole objects
- * TODO: Make moles randomly appear
- * TODO: Implement Timer and Score
+/* TODO: Add sound
  */
 
 
-
+var flyX = 0;
+var flyY = 0;
 
 var helvetica;
-
+var flySFX, smackSFX;
 function preload(){
 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
 	soundFormats('mp3');
-	
+	flySFX = loadSound("/assets/karate-kid/sounds/flysfx.mp3");
+	smackSFX = loadSound("/assets/karate-kid/sounds/smack.mp3");
 }
+let bg, time, flyimg, chopOpen, chopClosed, miyagiDo;
 
+let dx = 0
+let dy = 0;
+let score = 0;
+var grabbed = false;
+var closed = false;
+var isStarted = false;
+var deducted = false;
 function setup() {
 	createCanvas(1920,windowHeight);
+	bg = loadImage("assets/karate-kid/dojo.jpg");
+	miyagiDo = loadImage("assets/karate-kid/miagi.png");
+	flyimg = loadImage("assets/karate-kid/fly.png");
+	chopOpen = loadImage("assets/karate-kid/chopOpen.png");
+	chopClosed = loadImage("assets/karate-kid/chopClosed.png");
 	frameRate(30);
+	time = (30+1)*30;
+	//flySFX.play();
 }
 
 function draw() {
+	time--;
 	background(bg);
+	image(miyagiDo, (windowWidth/2)-300, (windowHeight/2)-300);
+	if(time > 0){
+		if(mouseIsPressed){
+			image(chopClosed, mouseX-70, mouseY-12);
+			if((mouseX > flyX-40 && mouseX < flyX + 40) && (mouseY > flyY-40 && mouseY < flyY + 40)){
+				grabbed = true;
+				smackSFX.play();
+			}
+		}else{
+			image(chopOpen, mouseX-40, mouseY-12);
+		}
+	}
+	if(time >= 1){
+		fly();
+	} 
+	fill(222);
+	rect(40,40, 150,75,20);
+
+	fill(color('black'));
+	textSize(24);
+	if(time > 0){
+		text("Time: " + Math.floor(time/30), 60,85);
+	}else{
+		text("Score: " + score, 60,85);
+		flySFX.stop();
+	}
+	
 }
 function touchStarted(){
 	if(!(flySFX.isLoaded())) return;
@@ -50,6 +90,46 @@ function touchStarted(){
 	print("Hit!");
 }
 
+function fly(){
+	if(flyX == 0 || flyY == 0){
+		flyX = 1920/2;
+		flyY = windowHeight/2;
+		image(flyimg, flyX-40, flyY-40,80,80);
+		return;
+	}
+	if(grabbed){
+		flyX = random(41,1920-41);
+		flyY = random(41,windowHeight-41);
+		grabbed = false;
+		score++;
+	}
+	if(time%30 == 0){
+		dx = random(-8,8);
+		dy = random(-8,8);
+		flyX += dx;
+		flyY += dy;
+		image(flyimg, flyX-40, flyY-40, 80 ,80);
+		return;
+	}
+	//print(typeof random(-4,4));
+	if(flyX <= 0){
+		dx = random(1,8);
+	}
+	if(flyX > 1920-40){
+		dx = random(-8,-1);
+	}
+	if(flyY <= 0){
+		dy = random(1,8);
+	}
+	if(flyY > windowHeight-40){
+		dy = random(-8,-1);
+	}
+	flyX += dx;
+	flyY += dy;
+	image(flyimg, flyX-40, flyY-40, 80 ,80);
+	//print(flyX + " " + flyY);
+	//print(typeof flyX + " " + typeof flyY);
+}
 
 function exit( status ) {
     // http://kevin.vanzonneveld.net
