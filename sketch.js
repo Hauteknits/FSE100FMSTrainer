@@ -26,20 +26,22 @@
 
 
 var helvetica;
+var bg;
 
 function preload(){
 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
 	soundFormats('mp3');
-	
 }
 
 function setup() {
 	createCanvas(1920,windowHeight);
 	frameRate(30);
+	bg = loadImage("/assets/whac-a-mole/grasstexture.png");
 }
 
 function draw() {
 	background(bg);
+	
 }
 function touchStarted(){
 	if(!(flySFX.isLoaded())) return;
