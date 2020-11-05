@@ -1,0 +1,8 @@
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET / HTTP/1.1" 200 429
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET /sketch.js HTTP/1.1" 200 3816
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET /p5.js HTTP/1.1" 200 3593000
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET /addons/p5.sound.min.js HTTP/1.1" 200 185224
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET /assets/HelveticaNeue-Medium.otf HTTP/1.1" 200 25004
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET /favicon.ico HTTP/1.1" 404 1179
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET /assets/whac-a-mole/mole.png HTTP/1.1" 200 37918
+127.0.0.1 - - [05/Nov/2020:16:10:04 -0700] "GET /assets/whac-a-mole/grassTexture.png HTTP/1.1" 200 5535762
