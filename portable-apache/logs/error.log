@@ -111,3 +111,233 @@ Child 25268: Child process is running
 [Thu Nov 05 16:12:13 2020] [notice] Child 25268: All worker threads have exited.
 [Thu Nov 05 16:12:13 2020] [notice] Child 25268: Child process is exiting
 [Thu Nov 05 16:12:13 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 17:14:05 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 17:14:05 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 17:14:05 2020] [notice] Parent: Created child process 25300
+Apache server shutdown initiated...
+Child 25300: Child process is running
+[Thu Nov 05 17:14:05 2020] [notice] Child 25300: Acquired the start mutex.
+[Thu Nov 05 17:14:05 2020] [notice] Child 25300: Starting 64 worker threads.
+[Thu Nov 05 17:14:05 2020] [notice] Child 25300: Starting thread to listen on port 8080.
+[Thu Nov 05 17:15:36 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:15:49 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:16:00 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:18:48 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:18:56 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:19:08 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:19:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:32:38 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:33:26 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:35:57 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:36:10 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:38:06 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:39:37 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 17:40:04 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 18:09:32 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 18:11:20 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 18:12:32 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Thu Nov 05 18:13:21 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:13:21 2020] [notice] Child 25300: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:13:22 2020] [notice] Child 25300: Released the start mutex
+[Thu Nov 05 18:13:23 2020] [notice] Child 25300: All worker threads have exited.
+[Thu Nov 05 18:13:23 2020] [notice] Child 25300: Child process is exiting
+[Thu Nov 05 18:13:23 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:14:09 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:14:09 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:14:09 2020] [notice] Parent: Created child process 16376
+Apache server shutdown initiated...
+Child 16376: Child process is running
+[Thu Nov 05 18:14:09 2020] [notice] Child 16376: Acquired the start mutex.
+[Thu Nov 05 18:14:09 2020] [notice] Child 16376: Starting 64 worker threads.
+[Thu Nov 05 18:14:09 2020] [notice] Child 16376: Starting thread to listen on port 8080.
+[Thu Nov 05 18:14:12 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:14:12 2020] [notice] Child 16376: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:14:13 2020] [notice] Child 16376: Released the start mutex
+[Thu Nov 05 18:14:14 2020] [notice] Child 16376: All worker threads have exited.
+[Thu Nov 05 18:14:14 2020] [notice] Child 16376: Child process is exiting
+[Thu Nov 05 18:14:14 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:15:19 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:15:19 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:15:19 2020] [notice] Parent: Created child process 27900
+Apache server shutdown initiated...
+Child 27900: Child process is running
+[Thu Nov 05 18:15:19 2020] [notice] Child 27900: Acquired the start mutex.
+[Thu Nov 05 18:15:19 2020] [notice] Child 27900: Starting 64 worker threads.
+[Thu Nov 05 18:15:19 2020] [notice] Child 27900: Starting thread to listen on port 8080.
+[Thu Nov 05 18:15:22 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:15:22 2020] [notice] Child 27900: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:15:23 2020] [notice] Child 27900: Released the start mutex
+[Thu Nov 05 18:15:24 2020] [notice] Child 27900: All worker threads have exited.
+[Thu Nov 05 18:15:24 2020] [notice] Child 27900: Child process is exiting
+[Thu Nov 05 18:15:24 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:15:57 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:15:57 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:15:57 2020] [notice] Parent: Created child process 18024
+Apache server shutdown initiated...
+Child 18024: Child process is running
+[Thu Nov 05 18:15:57 2020] [notice] Child 18024: Acquired the start mutex.
+[Thu Nov 05 18:15:57 2020] [notice] Child 18024: Starting 64 worker threads.
+[Thu Nov 05 18:15:57 2020] [notice] Child 18024: Starting thread to listen on port 8080.
+[Thu Nov 05 18:16:01 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:16:01 2020] [notice] Child 18024: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:16:02 2020] [notice] Child 18024: Released the start mutex
+[Thu Nov 05 18:16:03 2020] [notice] Child 18024: All worker threads have exited.
+[Thu Nov 05 18:16:03 2020] [notice] Child 18024: Child process is exiting
+[Thu Nov 05 18:16:03 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:16:30 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:16:30 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:16:30 2020] [notice] Parent: Created child process 6232
+Apache server shutdown initiated...
+Child 6232: Child process is running
+[Thu Nov 05 18:16:30 2020] [notice] Child 6232: Acquired the start mutex.
+[Thu Nov 05 18:16:30 2020] [notice] Child 6232: Starting 64 worker threads.
+[Thu Nov 05 18:16:30 2020] [notice] Child 6232: Starting thread to listen on port 8080.
+[Thu Nov 05 18:16:36 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:16:36 2020] [notice] Child 6232: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:16:37 2020] [notice] Child 6232: Released the start mutex
+[Thu Nov 05 18:16:38 2020] [notice] Child 6232: All worker threads have exited.
+[Thu Nov 05 18:16:38 2020] [notice] Child 6232: Child process is exiting
+[Thu Nov 05 18:16:38 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:17:57 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:17:57 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:17:57 2020] [notice] Parent: Created child process 33676
+Apache server shutdown initiated...
+Child 33676: Child process is running
+[Thu Nov 05 18:17:57 2020] [notice] Child 33676: Acquired the start mutex.
+[Thu Nov 05 18:17:57 2020] [notice] Child 33676: Starting 64 worker threads.
+[Thu Nov 05 18:17:57 2020] [notice] Child 33676: Starting thread to listen on port 8080.
+[Thu Nov 05 18:17:59 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:17:59 2020] [notice] Child 33676: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:18:00 2020] [notice] Child 33676: Released the start mutex
+[Thu Nov 05 18:18:01 2020] [notice] Child 33676: All worker threads have exited.
+[Thu Nov 05 18:18:01 2020] [notice] Child 33676: Child process is exiting
+[Thu Nov 05 18:18:01 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:18:34 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:18:34 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:18:34 2020] [notice] Parent: Created child process 38356
+Apache server shutdown initiated...
+Child 38356: Child process is running
+[Thu Nov 05 18:18:35 2020] [notice] Child 38356: Acquired the start mutex.
+[Thu Nov 05 18:18:35 2020] [notice] Child 38356: Starting 64 worker threads.
+[Thu Nov 05 18:18:35 2020] [notice] Child 38356: Starting thread to listen on port 8080.
+[Thu Nov 05 18:18:36 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:18:36 2020] [notice] Child 38356: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:18:37 2020] [notice] Child 38356: Released the start mutex
+[Thu Nov 05 18:18:38 2020] [notice] Child 38356: All worker threads have exited.
+[Thu Nov 05 18:18:38 2020] [notice] Child 38356: Child process is exiting
+[Thu Nov 05 18:18:38 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:22:39 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:22:39 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:22:40 2020] [notice] Parent: Created child process 3848
+Apache server shutdown initiated...
+Child 3848: Child process is running
+[Thu Nov 05 18:22:40 2020] [notice] Child 3848: Acquired the start mutex.
+[Thu Nov 05 18:22:40 2020] [notice] Child 3848: Starting 64 worker threads.
+[Thu Nov 05 18:22:40 2020] [notice] Child 3848: Starting thread to listen on port 8080.
+[Thu Nov 05 18:22:41 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:22:41 2020] [notice] Child 3848: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:22:42 2020] [notice] Child 3848: Released the start mutex
+[Thu Nov 05 18:22:43 2020] [notice] Child 3848: All worker threads have exited.
+[Thu Nov 05 18:22:43 2020] [notice] Child 3848: Child process is exiting
+[Thu Nov 05 18:22:43 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:25:24 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:25:24 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:25:24 2020] [notice] Parent: Created child process 37952
+Apache server shutdown initiated...
+Child 37952: Child process is running
+[Thu Nov 05 18:25:24 2020] [notice] Child 37952: Acquired the start mutex.
+[Thu Nov 05 18:25:24 2020] [notice] Child 37952: Starting 64 worker threads.
+[Thu Nov 05 18:25:24 2020] [notice] Child 37952: Starting thread to listen on port 8080.
+[Thu Nov 05 18:25:25 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:25:25 2020] [notice] Child 37952: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:25:26 2020] [notice] Child 37952: Released the start mutex
+[Thu Nov 05 18:25:27 2020] [notice] Child 37952: All worker threads have exited.
+[Thu Nov 05 18:25:27 2020] [notice] Child 37952: Child process is exiting
+[Thu Nov 05 18:25:27 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:25:56 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:25:56 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:25:56 2020] [notice] Parent: Created child process 38624
+Apache server shutdown initiated...
+Child 38624: Child process is running
+[Thu Nov 05 18:25:56 2020] [notice] Child 38624: Acquired the start mutex.
+[Thu Nov 05 18:25:56 2020] [notice] Child 38624: Starting 64 worker threads.
+[Thu Nov 05 18:25:56 2020] [notice] Child 38624: Starting thread to listen on port 8080.
+[Thu Nov 05 18:25:58 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:25:58 2020] [notice] Child 38624: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:25:59 2020] [notice] Child 38624: Released the start mutex
+[Thu Nov 05 18:26:00 2020] [notice] Child 38624: All worker threads have exited.
+[Thu Nov 05 18:26:00 2020] [notice] Child 38624: Child process is exiting
+[Thu Nov 05 18:26:00 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:26:10 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:26:10 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:26:10 2020] [notice] Parent: Created child process 24656
+Apache server shutdown initiated...
+Child 24656: Child process is running
+[Thu Nov 05 18:26:10 2020] [notice] Child 24656: Acquired the start mutex.
+[Thu Nov 05 18:26:10 2020] [notice] Child 24656: Starting 64 worker threads.
+[Thu Nov 05 18:26:10 2020] [notice] Child 24656: Starting thread to listen on port 8080.
+[Thu Nov 05 18:26:51 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:26:51 2020] [notice] Child 24656: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:26:52 2020] [notice] Child 24656: Released the start mutex
+[Thu Nov 05 18:26:53 2020] [notice] Child 24656: All worker threads have exited.
+[Thu Nov 05 18:26:53 2020] [notice] Child 24656: Child process is exiting
+[Thu Nov 05 18:26:53 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:26:56 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:26:56 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:26:56 2020] [notice] Parent: Created child process 19480
+Apache server shutdown initiated...
+Child 19480: Child process is running
+[Thu Nov 05 18:26:56 2020] [notice] Child 19480: Acquired the start mutex.
+[Thu Nov 05 18:26:56 2020] [notice] Child 19480: Starting 64 worker threads.
+[Thu Nov 05 18:26:56 2020] [notice] Child 19480: Starting thread to listen on port 8080.
+[Thu Nov 05 18:27:23 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:27:23 2020] [notice] Child 19480: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:27:24 2020] [notice] Child 19480: Released the start mutex
+[Thu Nov 05 18:27:25 2020] [notice] Child 19480: All worker threads have exited.
+[Thu Nov 05 18:27:25 2020] [notice] Child 19480: Child process is exiting
+[Thu Nov 05 18:27:25 2020] [notice] Parent: Child process exited successfully.
+[Thu Nov 05 18:27:27 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:27:27 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:27:27 2020] [notice] Parent: Created child process 32360
+Apache server shutdown initiated...
+Child 32360: Child process is running
+[Thu Nov 05 18:27:27 2020] [notice] Child 32360: Acquired the start mutex.
+[Thu Nov 05 18:27:27 2020] [notice] Child 32360: Starting 64 worker threads.
+[Thu Nov 05 18:27:27 2020] [notice] Child 32360: Starting thread to listen on port 8080.
+[Thu Nov 05 18:28:00 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/favicon.ico, referer: http://localhost:8080/
+[Thu Nov 05 18:28:09 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:28:09 2020] [notice] Child 32360: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:28:10 2020] [notice] Child 32360: Released the start mutex
+[Thu Nov 05 18:28:18 2020] [warn] pid file C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/portable-apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 05 18:28:18 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:28:18 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:28:18 2020] [notice] Parent: Created child process 28124
+Apache server shutdown initiated...
+Child 28124: Child process is running
+[Thu Nov 05 18:28:18 2020] [notice] Child 28124: Acquired the start mutex.
+[Thu Nov 05 18:28:18 2020] [notice] Child 28124: Starting 64 worker threads.
+[Thu Nov 05 18:28:18 2020] [notice] Child 28124: Starting thread to listen on port 8080.
+[Thu Nov 05 18:28:20 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:28:20 2020] [notice] Child 28124: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:28:21 2020] [notice] Child 28124: Released the start mutex
+[Thu Nov 05 18:28:26 2020] [notice] Child 28124: All worker threads have exited.
+[Thu Nov 05 18:28:26 2020] [notice] Child 28124: Child process is exiting
+[Thu Nov 05 18:28:31 2020] [warn] pid file C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/portable-apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 05 18:28:31 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Thu Nov 05 18:28:31 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Nov 05 18:28:31 2020] [notice] Parent: Created child process 20396
+Apache server shutdown initiated...
+Child 20396: Child process is running
+[Thu Nov 05 18:28:31 2020] [notice] Child 20396: Acquired the start mutex.
+[Thu Nov 05 18:28:31 2020] [notice] Child 20396: Starting 64 worker threads.
+[Thu Nov 05 18:28:31 2020] [notice] Child 20396: Starting thread to listen on port 8080.
+[Thu Nov 05 18:28:38 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Nov 05 18:28:38 2020] [notice] Child 20396: Exit event signaled. Child process is ending.
+[Thu Nov 05 18:28:39 2020] [notice] Child 20396: Released the start mutex
+[Thu Nov 05 18:28:41 2020] [notice] Child 32360: Waiting 270 more seconds for 4 worker threads to finish.
+[Thu Nov 05 18:29:01 2020] [notice] Child 32360: All worker threads have exited.
+[Thu Nov 05 18:29:01 2020] [notice] Child 32360: Child process is exiting
+[Thu Nov 05 18:29:10 2020] [notice] Child 20396: Waiting 270 more seconds for 1 worker threads to finish.
+[Thu Nov 05 18:29:40 2020] [notice] Child 20396: Waiting 240 more seconds for 1 worker threads to finish.
+[Thu Nov 05 18:29:42 2020] [notice] Child 20396: All worker threads have exited.
+[Thu Nov 05 18:29:42 2020] [notice] Child 20396: Child process is exiting

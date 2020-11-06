@@ -2,8 +2,9 @@
 
 REM Creating a Newline variable (the two blank lines are required!)
 set NLM=^
-set NL=^^^%NLM%%NLM%^%NLM%%NLM%
 
+
+set NL=^^^%NLM%%NLM%^%NLM%%NLM%
 
 echo FMSTrainer, Copyright (C) 2020 Holden Clarke, Licensed under the GNU General Public License v3
 echo.
@@ -22,8 +23,11 @@ echo.
 pause
 
 echo.
-echo Open your web browser of choice and navigate to "127.0.0.1"%NLM%
+echo ****************************************************************%NLM%
+echo Open your web browser of choice and navigate to "127.0.0.1:8080" %NLM%
 echo When you are finished with the program, close this window
+echo ****************************************************************%NLM%
 echo.
+color 7
 cd portable-apache
 start.bat

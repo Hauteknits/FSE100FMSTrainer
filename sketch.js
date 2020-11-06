@@ -14,22 +14,22 @@
  *   GNU General Public License for more details.
  */
 
-/* TODO: Setup Moles ---- PARTIALLY COMPLETED
- * TODO: Create an array of Mole objects
- * TODO: Make moles randomly appear
- * TODO: Implement Timer and Score
+/* TODO: Add sound
+ *
  */
 
 
 
 
 var helvetica;
-var bg, moleImg;
+var bg, moleImg, malletUp, malletDown;
 const width = 200;
 const height = 150;
 var xPos = [];
 var yPos = [];
 let time;
+
+var moleArr = [];
 
 function preload(){
 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
@@ -41,7 +41,9 @@ function setup() {
 	frameRate(30);
 	bg = loadImage("/assets/whac-a-mole/grassTexture.png");
 	moleImg = loadImage("/assets/whac-a-mole/mole.png");
-	time = (60+1)*30;
+	malletUp = loadImage("/assets/whac-a-mole/malletUp.png");
+	malletDown = loadImage("/assets/whac-a-mole/malletDown.png");
+	time = (30+1)*30;
 }
 
 function draw() {
@@ -62,32 +64,80 @@ function draw() {
 	textSize(24);
 	if(time > 0){
 		text("Time: " + Math.floor(time/30), 60,85);
+	}else{
+		let hitMoles = 0;
+		moleArr.forEach((m) =>{
+			if(m.wasHit()) hitMoles++;
+		})
+		text("Score: " + hitMoles, 60,85);
 	}
-	if(time%60 == 0){
-		let cur = new Mole();
-		cur.appear();
+	if(time%45 == 0 && time > 0){
+		let cur = new Mole(time);
+		moleArr.push(cur);
+	}
+	moleArr.forEach((m)=>{
+		m.appear();
+	});
+	if(time > 0){
+		if(mouseIsPressed){
+			image(malletDown, mouseX-75, mouseY-75);
+			moleArr.forEach((m)=>{
+				if(m.isAlive()){
+					if(m.isHit(mouseX, mouseY)){
+						m.kill();
+					}
+				}
+			});
+		}else{
+			image(malletUp, mouseX-75, mouseY-75);
+		}
 	}
 }
-function touchStarted(){
+/*function touchStarted(){
 	if(!(flySFX.isLoaded())) return;
 	if(!isStarted){
 		flySFX.play();
 		isStarted = true;
 	}
 	print("Hit!");
-}
+}*/
 
 class Mole {
-	constructor(){
+	constructor(initTime){
 		this.x = -1;
 		this.y = -1;
+		this.alive = true;
+		this.hit = false;
+		this.timeOfDeath = initTime - 90;
 	}
 	appear(){
-		let randX = Math.floor(random(0,xPos.length));
-		let randY = Math.floor(random(0,yPos.length));
-		this.x = xPos[randX] - 100;
-		this.y = yPos[randY] - 100;
-		image(moleImg,this.x,this.y);
+		if(this.x == -1 && this.y == -1){
+			let randX = Math.floor(random(0,xPos.length));
+			let randY = Math.floor(random(0,yPos.length));
+			this.x = xPos[randX] - 100;
+			this.y = yPos[randY] - 100;
+		}
+		if(this.alive && !this.hit) image(moleImg,this.x,this.y);
+		if(time == this.timeOfDeath) this.alive = false;
+	}
+	getX(){ return this.x; }
+	getY(){ return this.y; }
+	isHit(eX, eY){
+		if(eX > this.x && eX < this.x+200){
+			if(eY > this.y && eY < this.y+200){
+				return true;
+			}else{
+				return false;
+			}
+		}else{
+			return false;
+		}
+	}
+	wasHit() { return this.hit; }
+	isAlive(){ return this.alive; }
+	kill(){
+		this.alive = false;
+		this.hit = true;
 	}
 }
 
