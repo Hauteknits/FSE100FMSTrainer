@@ -30,4 +30,4 @@ echo ****************************************************************%NLM%
 echo.
 color 7
 cd portable-apache
-start.bat
+start.bat > NUL 2> NUL
