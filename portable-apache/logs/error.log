@@ -419,3 +419,23 @@ Child 3588: Child process is running
 [Fri Nov 06 21:30:52 2020] [notice] Child 3588: All worker threads have exited.
 [Fri Nov 06 21:30:52 2020] [notice] Child 3588: Child process is exiting
 [Fri Nov 06 21:30:52 2020] [notice] Parent: Child process exited successfully.
+[Sat Nov 07 13:25:17 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Sat Nov 07 13:25:17 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Sat Nov 07 13:25:17 2020] [notice] Parent: Created child process 39696
+Apache server shutdown initiated...
+Child 39696: Child process is running
+[Sat Nov 07 13:25:17 2020] [notice] Child 39696: Acquired the start mutex.
+[Sat Nov 07 13:25:17 2020] [notice] Child 39696: Starting 64 worker threads.
+[Sat Nov 07 13:25:17 2020] [notice] Child 39696: Starting thread to listen on port 8080.
+[Sat Nov 07 13:25:20 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Sat Nov 07 13:25:20 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Sat Nov 07 13:25:20 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/favicon.ico, referer: http://127.0.0.1:8080/
+[Sat Nov 07 13:30:30 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Sat Nov 07 13:30:58 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Sat Nov 07 13:31:26 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Sat Nov 07 13:34:50 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Nov 07 13:34:50 2020] [notice] Child 39696: Exit event signaled. Child process is ending.
+[Sat Nov 07 13:34:51 2020] [notice] Child 39696: Released the start mutex
+[Sat Nov 07 13:34:52 2020] [notice] Child 39696: All worker threads have exited.
+[Sat Nov 07 13:34:52 2020] [notice] Child 39696: Child process is exiting
+[Sat Nov 07 13:34:52 2020] [notice] Parent: Child process exited successfully.

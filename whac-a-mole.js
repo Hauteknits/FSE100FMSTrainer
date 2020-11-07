@@ -14,7 +14,7 @@
  *   GNU General Public License for more details.
  */
 
-/* TODO: Add sound
+/* TODO: Add MORE sound
  *
  */
 
@@ -23,6 +23,7 @@
 
 var helvetica;
 var bg, moleImg, malletUp, malletDown;
+var whackSFX;
 const width = 200;
 const height = 150;
 var xPos = [];
@@ -34,6 +35,7 @@ var moleArr = [];
 function preload(){
 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
 	soundFormats('mp3');
+	whackSFX = loadSound("/assets/whac-a-mole/sounds/whack.mp3");
 }
 
 function setup() {
@@ -140,7 +142,10 @@ class Mole {
 		this.hit = true;
 	}
 }
-
+function touchStarted(){
+	if(!(whackSFX.isLoaded())) return;
+	whackSFX.play();
+}
 
 function exit( status ) {
     // http://kevin.vanzonneveld.net
