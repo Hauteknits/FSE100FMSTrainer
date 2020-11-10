@@ -38,6 +38,9 @@ var grabbed = false;
 var closed = false;
 var isStarted = false;
 var deducted = false;
+
+var clickStarted = false;
+
 function setup() {
 	createCanvas(1920,windowHeight);
 	bg = loadImage("assets/karate-kid/dojo.jpg");
@@ -47,22 +50,27 @@ function setup() {
 	chopClosed = loadImage("assets/karate-kid/chopClosed.png");
 	frameRate(30);
 	time = (30+1)*30;
-	//flySFX.play();
+	flySFX.play();
 }
 
 function draw() {
+	print("LOGGING!!!!");
 	time--;
 	background(bg);
 	image(miyagiDo, (windowWidth/2)-300, (windowHeight/2)-300);
 	if(time > 0){
 		if(mouseIsPressed){
 			image(chopClosed, mouseX-70, mouseY-12);
-			if((mouseX > flyX-40 && mouseX < flyX + 40) && (mouseY > flyY-40 && mouseY < flyY + 40)){
+			if((mouseX > flyX-40 && mouseX < flyX + 40) && (mouseY > flyY-40 && mouseY < flyY + 40) && !clickStarted){
 				grabbed = true;
 				smackSFX.play();
 			}
+			if(clickStarted) grabbed = false;
+			clickStarted = true;
+			print(grabbed);
 		}else{
 			image(chopOpen, mouseX-40, mouseY-12);
+			clickStarted = false;
 		}
 	}
 	if(time >= 1){

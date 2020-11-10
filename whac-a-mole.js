@@ -32,6 +32,8 @@ let time;
 
 var moleArr = [];
 
+var clickStarted = false;
+
 function preload(){
 	helvetica = loadFont("/assets/HelveticaNeue-Medium.otf");
 	soundFormats('mp3');
@@ -83,15 +85,19 @@ function draw() {
 	if(time > 0){
 		if(mouseIsPressed){
 			image(malletDown, mouseX-75, mouseY-75);
-			moleArr.forEach((m)=>{
-				if(m.isAlive()){
-					if(m.isHit(mouseX, mouseY)){
-						m.kill();
+			if(!clickStarted){
+				moleArr.forEach((m)=>{
+					if(m.isAlive()){
+						if(m.isHit(mouseX, mouseY)){
+							m.kill();
+						}
 					}
-				}
-			});
+				});
+			}
+			clickStarted = true;
 		}else{
 			image(malletUp, mouseX-75, mouseY-75);
+			clickStarted = false;
 		}
 	}
 }

@@ -439,3 +439,291 @@ Child 39696: Child process is running
 [Sat Nov 07 13:34:52 2020] [notice] Child 39696: All worker threads have exited.
 [Sat Nov 07 13:34:52 2020] [notice] Child 39696: Child process is exiting
 [Sat Nov 07 13:34:52 2020] [notice] Parent: Child process exited successfully.
+[Sat Nov 07 20:23:13 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Sat Nov 07 20:23:13 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Sat Nov 07 20:23:13 2020] [notice] Parent: Created child process 41364
+Apache server shutdown initiated...
+Child 41364: Child process is running
+[Sat Nov 07 20:23:13 2020] [notice] Child 41364: Acquired the start mutex.
+[Sat Nov 07 20:23:13 2020] [notice] Child 41364: Starting 64 worker threads.
+[Sat Nov 07 20:23:13 2020] [notice] Child 41364: Starting thread to listen on port 8080.
+[Sat Nov 07 20:23:17 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Sat Nov 07 20:23:17 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Sat Nov 07 20:23:18 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/favicon.ico, referer: http://127.0.0.1:8080/
+[Sat Nov 07 20:24:13 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Sat Nov 07 20:24:13 2020] [notice] Child 41364: Exit event signaled. Child process is ending.
+[Sat Nov 07 20:24:14 2020] [notice] Child 41364: Released the start mutex
+[Sat Nov 07 20:24:15 2020] [notice] Child 41364: All worker threads have exited.
+[Sat Nov 07 20:24:15 2020] [notice] Child 41364: Child process is exiting
+[Sat Nov 07 20:24:15 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 16:45:35 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 16:45:35 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 16:45:35 2020] [notice] Parent: Created child process 46956
+Apache server shutdown initiated...
+Child 46956: Child process is running
+[Mon Nov 09 16:45:35 2020] [notice] Child 46956: Acquired the start mutex.
+[Mon Nov 09 16:45:35 2020] [notice] Child 46956: Starting 64 worker threads.
+[Mon Nov 09 16:45:35 2020] [notice] Child 46956: Starting thread to listen on port 8080.
+[Mon Nov 09 16:45:40 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:45:40 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:45:41 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:45:41 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:45:41 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/favicon.ico, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:46:03 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 16:46:03 2020] [notice] Child 46956: Exit event signaled. Child process is ending.
+[Mon Nov 09 16:46:04 2020] [notice] Child 46956: Released the start mutex
+[Mon Nov 09 16:46:05 2020] [notice] Child 46956: All worker threads have exited.
+[Mon Nov 09 16:46:05 2020] [notice] Child 46956: Child process is exiting
+[Mon Nov 09 16:46:05 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 16:47:21 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 16:47:21 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 16:47:21 2020] [notice] Parent: Created child process 42032
+Apache server shutdown initiated...
+Child 42032: Child process is running
+[Mon Nov 09 16:47:21 2020] [notice] Child 42032: Acquired the start mutex.
+[Mon Nov 09 16:47:21 2020] [notice] Child 42032: Starting 64 worker threads.
+[Mon Nov 09 16:47:21 2020] [notice] Child 42032: Starting thread to listen on port 8080.
+[Mon Nov 09 16:47:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:47:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:47:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:47:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:47:48 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:50:31 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:51:05 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:51:20 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:53:16 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:53:42 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:54:01 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:54:34 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:54:35 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:54:59 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:55:03 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 16:55:07 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 16:55:07 2020] [notice] Child 42032: Exit event signaled. Child process is ending.
+[Mon Nov 09 16:55:08 2020] [notice] Child 42032: Released the start mutex
+[Mon Nov 09 16:55:10 2020] [notice] Child 42032: All worker threads have exited.
+[Mon Nov 09 16:55:10 2020] [notice] Child 42032: Child process is exiting
+[Mon Nov 09 16:55:10 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 16:55:11 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 16:55:11 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 16:55:11 2020] [notice] Parent: Created child process 13320
+Apache server shutdown initiated...
+Child 13320: Child process is running
+[Mon Nov 09 16:55:11 2020] [notice] Child 13320: Acquired the start mutex.
+[Mon Nov 09 16:55:11 2020] [notice] Child 13320: Starting 64 worker threads.
+[Mon Nov 09 16:55:11 2020] [notice] Child 13320: Starting thread to listen on port 8080.
+[Mon Nov 09 16:55:13 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:55:13 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:55:14 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:55:14 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:55:33 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 16:55:33 2020] [notice] Child 13320: Exit event signaled. Child process is ending.
+[Mon Nov 09 16:55:34 2020] [notice] Child 13320: Released the start mutex
+[Mon Nov 09 16:55:35 2020] [notice] Child 13320: All worker threads have exited.
+[Mon Nov 09 16:55:35 2020] [notice] Child 13320: Child process is exiting
+[Mon Nov 09 16:55:35 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 16:56:12 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 16:56:12 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 16:56:12 2020] [notice] Parent: Created child process 44596
+Apache server shutdown initiated...
+Child 44596: Child process is running
+[Mon Nov 09 16:56:12 2020] [notice] Child 44596: Acquired the start mutex.
+[Mon Nov 09 16:56:12 2020] [notice] Child 44596: Starting 64 worker threads.
+[Mon Nov 09 16:56:12 2020] [notice] Child 44596: Starting thread to listen on port 8080.
+[Mon Nov 09 16:57:03 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:57:03 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:57:03 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:57:03 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:57:39 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 16:57:39 2020] [notice] Child 44596: Exit event signaled. Child process is ending.
+[Mon Nov 09 16:57:40 2020] [notice] Child 44596: Released the start mutex
+[Mon Nov 09 16:57:41 2020] [notice] Child 44596: All worker threads have exited.
+[Mon Nov 09 16:57:41 2020] [notice] Child 44596: Child process is exiting
+[Mon Nov 09 16:57:41 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 16:58:09 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 16:58:09 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 16:58:09 2020] [notice] Parent: Created child process 45716
+Apache server shutdown initiated...
+Child 45716: Child process is running
+[Mon Nov 09 16:58:09 2020] [notice] Child 45716: Acquired the start mutex.
+[Mon Nov 09 16:58:09 2020] [notice] Child 45716: Starting 64 worker threads.
+[Mon Nov 09 16:58:09 2020] [notice] Child 45716: Starting thread to listen on port 8080.
+[Mon Nov 09 16:58:11 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:58:11 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:58:11 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:58:11 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 16:58:22 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 16:58:22 2020] [notice] Child 45716: Exit event signaled. Child process is ending.
+[Mon Nov 09 16:58:23 2020] [notice] Child 45716: Released the start mutex
+[Mon Nov 09 16:58:25 2020] [notice] Child 45716: All worker threads have exited.
+[Mon Nov 09 16:58:25 2020] [notice] Child 45716: Child process is exiting
+[Mon Nov 09 16:58:25 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:00:28 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:00:28 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:00:28 2020] [notice] Parent: Created child process 21064
+Apache server shutdown initiated...
+Child 21064: Child process is running
+[Mon Nov 09 17:00:28 2020] [notice] Child 21064: Acquired the start mutex.
+[Mon Nov 09 17:00:28 2020] [notice] Child 21064: Starting 64 worker threads.
+[Mon Nov 09 17:00:28 2020] [notice] Child 21064: Starting thread to listen on port 8080.
+[Mon Nov 09 17:00:29 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:00:29 2020] [notice] Child 21064: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:00:30 2020] [notice] Child 21064: Released the start mutex
+[Mon Nov 09 17:00:31 2020] [notice] Child 21064: All worker threads have exited.
+[Mon Nov 09 17:00:31 2020] [notice] Child 21064: Child process is exiting
+[Mon Nov 09 17:00:31 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:00:33 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:00:33 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:00:33 2020] [notice] Parent: Created child process 14260
+Apache server shutdown initiated...
+Child 14260: Child process is running
+[Mon Nov 09 17:00:33 2020] [notice] Child 14260: Acquired the start mutex.
+[Mon Nov 09 17:00:33 2020] [notice] Child 14260: Starting 64 worker threads.
+[Mon Nov 09 17:00:33 2020] [notice] Child 14260: Starting thread to listen on port 8080.
+[Mon Nov 09 17:01:30 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:01:30 2020] [notice] Child 14260: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:01:31 2020] [notice] Child 14260: Released the start mutex
+[Mon Nov 09 17:01:32 2020] [notice] Child 14260: All worker threads have exited.
+[Mon Nov 09 17:01:32 2020] [notice] Child 14260: Child process is exiting
+[Mon Nov 09 17:01:32 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:01:34 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:01:34 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:01:34 2020] [notice] Parent: Created child process 22188
+Apache server shutdown initiated...
+Child 22188: Child process is running
+[Mon Nov 09 17:01:34 2020] [notice] Child 22188: Acquired the start mutex.
+[Mon Nov 09 17:01:34 2020] [notice] Child 22188: Starting 64 worker threads.
+[Mon Nov 09 17:01:34 2020] [notice] Child 22188: Starting thread to listen on port 8080.
+[Mon Nov 09 17:01:42 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/addons/p5.sound.min.js.map
+[Mon Nov 09 17:01:48 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:01:48 2020] [notice] Child 22188: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:01:49 2020] [notice] Child 22188: Released the start mutex
+[Mon Nov 09 17:01:50 2020] [notice] Child 22188: All worker threads have exited.
+[Mon Nov 09 17:01:50 2020] [notice] Child 22188: Child process is exiting
+[Mon Nov 09 17:01:50 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:02:03 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:02:03 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:02:03 2020] [notice] Parent: Created child process 18892
+Apache server shutdown initiated...
+Child 18892: Child process is running
+[Mon Nov 09 17:02:03 2020] [notice] Child 18892: Acquired the start mutex.
+[Mon Nov 09 17:02:03 2020] [notice] Child 18892: Starting 64 worker threads.
+[Mon Nov 09 17:02:03 2020] [notice] Child 18892: Starting thread to listen on port 8080.
+[Mon Nov 09 17:02:08 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:02:08 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:02:08 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:02:08 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:02:13 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:02:13 2020] [notice] Child 18892: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:02:14 2020] [notice] Child 18892: Released the start mutex
+[Mon Nov 09 17:02:16 2020] [notice] Child 18892: All worker threads have exited.
+[Mon Nov 09 17:02:16 2020] [notice] Child 18892: Child process is exiting
+[Mon Nov 09 17:02:16 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:04:37 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:04:37 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:04:38 2020] [notice] Parent: Created child process 41480
+Apache server shutdown initiated...
+Child 41480: Child process is running
+[Mon Nov 09 17:04:38 2020] [notice] Child 41480: Acquired the start mutex.
+[Mon Nov 09 17:04:38 2020] [notice] Child 41480: Starting 64 worker threads.
+[Mon Nov 09 17:04:38 2020] [notice] Child 41480: Starting thread to listen on port 8080.
+[Mon Nov 09 17:04:52 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:04:52 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:04:52 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:04:52 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:04:56 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:04:56 2020] [notice] Child 41480: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:04:57 2020] [notice] Child 41480: Released the start mutex
+[Mon Nov 09 17:05:00 2020] [notice] Child 41480: All worker threads have exited.
+[Mon Nov 09 17:05:00 2020] [notice] Child 41480: Child process is exiting
+[Mon Nov 09 17:05:00 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:07:06 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:07:06 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:07:06 2020] [notice] Parent: Created child process 6524
+Apache server shutdown initiated...
+Child 6524: Child process is running
+[Mon Nov 09 17:07:06 2020] [notice] Child 6524: Acquired the start mutex.
+[Mon Nov 09 17:07:06 2020] [notice] Child 6524: Starting 64 worker threads.
+[Mon Nov 09 17:07:06 2020] [notice] Child 6524: Starting thread to listen on port 8080.
+[Mon Nov 09 17:07:12 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:07:12 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:07:12 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:07:12 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:07:22 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:07:22 2020] [notice] Child 6524: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:07:23 2020] [notice] Child 6524: Released the start mutex
+[Mon Nov 09 17:07:24 2020] [notice] Child 6524: All worker threads have exited.
+[Mon Nov 09 17:07:24 2020] [notice] Child 6524: Child process is exiting
+[Mon Nov 09 17:07:24 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:18:27 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:18:27 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:18:27 2020] [notice] Parent: Created child process 44620
+Apache server shutdown initiated...
+Child 44620: Child process is running
+[Mon Nov 09 17:18:27 2020] [notice] Child 44620: Acquired the start mutex.
+[Mon Nov 09 17:18:27 2020] [notice] Child 44620: Starting 64 worker threads.
+[Mon Nov 09 17:18:27 2020] [notice] Child 44620: Starting thread to listen on port 8080.
+[Mon Nov 09 17:18:30 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:18:30 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:18:30 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:18:30 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:18:45 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:18:45 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:18:54 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:18:54 2020] [notice] Child 44620: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:18:55 2020] [notice] Child 44620: Released the start mutex
+[Mon Nov 09 17:18:56 2020] [notice] Child 44620: All worker threads have exited.
+[Mon Nov 09 17:18:56 2020] [notice] Child 44620: Child process is exiting
+[Mon Nov 09 17:18:56 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:20:29 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:20:29 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:20:29 2020] [notice] Parent: Created child process 18712
+Apache server shutdown initiated...
+Child 18712: Child process is running
+[Mon Nov 09 17:20:29 2020] [notice] Child 18712: Acquired the start mutex.
+[Mon Nov 09 17:20:29 2020] [notice] Child 18712: Starting 64 worker threads.
+[Mon Nov 09 17:20:29 2020] [notice] Child 18712: Starting thread to listen on port 8080.
+[Mon Nov 09 17:21:43 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:21:43 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:21:43 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:21:43 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:21:48 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:21:48 2020] [notice] Child 18712: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:21:49 2020] [notice] Child 18712: Released the start mutex
+[Mon Nov 09 17:21:52 2020] [notice] Child 18712: All worker threads have exited.
+[Mon Nov 09 17:21:52 2020] [notice] Child 18712: Child process is exiting
+[Mon Nov 09 17:21:52 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:22:23 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:22:23 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:22:23 2020] [notice] Parent: Created child process 40080
+Apache server shutdown initiated...
+Child 40080: Child process is running
+[Mon Nov 09 17:22:23 2020] [notice] Child 40080: Acquired the start mutex.
+[Mon Nov 09 17:22:23 2020] [notice] Child 40080: Starting 64 worker threads.
+[Mon Nov 09 17:22:23 2020] [notice] Child 40080: Starting thread to listen on port 8080.
+[Mon Nov 09 17:22:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:22:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:22:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:22:25 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:22:44 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:22:44 2020] [notice] Child 40080: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:22:45 2020] [notice] Child 40080: Released the start mutex
+[Mon Nov 09 17:22:46 2020] [notice] Child 40080: All worker threads have exited.
+[Mon Nov 09 17:22:46 2020] [notice] Child 40080: Child process is exiting
+[Mon Nov 09 17:22:46 2020] [notice] Parent: Child process exited successfully.
+[Mon Nov 09 17:26:10 2020] [notice] Apache/2.2.17 (Win32) configured -- resuming normal operations
+[Mon Nov 09 17:26:10 2020] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Nov 09 17:26:10 2020] [notice] Parent: Created child process 43480
+Apache server shutdown initiated...
+Child 43480: Child process is running
+[Mon Nov 09 17:26:10 2020] [notice] Child 43480: Acquired the start mutex.
+[Mon Nov 09 17:26:10 2020] [notice] Child 43480: Starting 64 worker threads.
+[Mon Nov 09 17:26:10 2020] [notice] Child 43480: Starting thread to listen on port 8080.
+[Mon Nov 09 17:26:12 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/p5.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:26:12 2020] [error] [client 127.0.0.1] File does not exist: C:/Users/holde/Desktop/FSE100FMSTrainer/FSE100FMSTrainer/sketch.js, referer: http://127.0.0.1:8080/
+[Mon Nov 09 17:26:27 2020] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 09 17:26:27 2020] [notice] Child 43480: Exit event signaled. Child process is ending.
+[Mon Nov 09 17:26:28 2020] [notice] Child 43480: Released the start mutex
+[Mon Nov 09 17:26:29 2020] [notice] Child 43480: All worker threads have exited.
+[Mon Nov 09 17:26:29 2020] [notice] Child 43480: Child process is exiting
+[Mon Nov 09 17:26:29 2020] [notice] Parent: Child process exited successfully.
