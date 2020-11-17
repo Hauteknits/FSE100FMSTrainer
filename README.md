@@ -4,7 +4,7 @@ Project FMSTrainer is a fine motor skills trainer for FSE 100
 
 ## Installation and Usage
 
-Clone/download the Master branch and run `start.bat` from the download folder, then navigate in your web browser to `127.0.0.1:8080`
+Our program can be accessed at [relaxed-curran-c6b035.netlify.app](https://relaxed-curran-c6b035.netlify.app/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
