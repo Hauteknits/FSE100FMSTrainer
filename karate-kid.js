@@ -54,7 +54,6 @@ function setup() {
 }
 
 function draw() {
-	print("LOGGING!!!!");
 	time--;
 	background(bg);
 	image(miyagiDo, (windowWidth/2)-300, (windowHeight/2)-300);
