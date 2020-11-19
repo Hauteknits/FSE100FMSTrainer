@@ -43,7 +43,7 @@ function preload(){
 function setup() {
 	createCanvas(1920,windowHeight);
 	frameRate(30);
-	bg = loadImage("/assets/whac-a-mole/grassTexture.png");
+	bg = loadImage("/assets/whac-a-mole/grassTexture.jpg");
 	moleImg = loadImage("/assets/whac-a-mole/mole.png");
 	malletUp = loadImage("/assets/whac-a-mole/malletUp.png");
 	malletDown = loadImage("/assets/whac-a-mole/malletDown.png");
