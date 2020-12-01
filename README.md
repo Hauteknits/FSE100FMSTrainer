@@ -27,3 +27,7 @@ This program is licensed under the GNU General Public License v3 [GPLv3](https:/
 
 ## Youtube Presentation Link
 [youtube.com](https://youtu.be/phiAkt-Xnis)
+
+
+## Planned Depreciation
+This project will be archived on 12/11/2020
